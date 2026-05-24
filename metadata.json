@@ -1,0 +1,6 @@
+{
+  "name": "Grocery Management System",
+  "description": "A comprehensive grocery inventory, sales, customer, and order management dashboard with real-time analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,386 @@
+{
+  "products": [
+    {
+      "product_id": "PROD-101",
+      "name": "Organic Honeycrisp Apples",
+      "category": "Produce",
+      "price": 4.99,
+      "quantity": 120,
+      "unit": "kg",
+      "supplier": "Green Valley Orchards",
+      "image_url": "🍎",
+      "expiry_date": "2026-06-12"
+    },
+    {
+      "product_id": "PROD-102",
+      "name": "Fresh Avocado Giant Hass",
+      "category": "Produce",
+      "price": 1.89,
+      "quantity": 15,
+      "unit": "pcs",
+      "supplier": "Verde Farms",
+      "image_url": "🥑",
+      "expiry_date": "2026-06-03"
+    },
+    {
+      "product_id": "PROD-103",
+      "name": "Sourdough Artisan Bread",
+      "category": "Bakery",
+      "price": 3.5,
+      "quantity": 45,
+      "unit": "pcs",
+      "supplier": "Rise & Bake Co.",
+      "image_url": "🍞",
+      "expiry_date": "2026-05-26"
+    },
+    {
+      "product_id": "PROD-104",
+      "name": "Grass-Fed Milk 2%",
+      "category": "Dairy & Eggs",
+      "price": 5.25,
+      "quantity": 79,
+      "unit": "liters",
+      "supplier": "Harmony Pastures Dairy",
+      "image_url": "🥛",
+      "expiry_date": "2026-05-30"
+    },
+    {
+      "product_id": "PROD-105",
+      "name": "Atlantic Salmon Fillet",
+      "category": "Meat & Seafood",
+      "price": 18.99,
+      "quantity": 25,
+      "unit": "kg",
+      "supplier": "Coastal Bounty Seafood",
+      "image_url": "🐟",
+      "expiry_date": "2026-05-25"
+    },
+    {
+      "product_id": "PROD-106",
+      "name": "Extra Virgin Olive Oil",
+      "category": "Pantry",
+      "price": 12.99,
+      "quantity": 50,
+      "unit": "liters",
+      "supplier": "Apulia Vineyards",
+      "image_url": "🫒",
+      "expiry_date": "2027-02-15"
+    },
+    {
+      "product_id": "PROD-107",
+      "name": "Organic Baby Spinach Bunch",
+      "category": "Produce",
+      "price": 2.99,
+      "quantity": 8,
+      "unit": "kg",
+      "supplier": "Pure Earth Greens",
+      "image_url": "🥬",
+      "expiry_date": "2026-05-28"
+    },
+    {
+      "product_id": "PROD-108",
+      "name": "Free Range Large Eggs",
+      "category": "Dairy & Eggs",
+      "price": 4.5,
+      "quantity": 110,
+      "unit": "pcs",
+      "supplier": "Happy Hens Farm",
+      "image_url": "🥚",
+      "expiry_date": "2026-06-15"
+    },
+    {
+      "product_id": "PROD-595",
+      "name": "muffins",
+      "category": "Bakery",
+      "price": 10,
+      "quantity": 48,
+      "unit": "pcs",
+      "supplier": "Bakingo",
+      "image_url": "🍞",
+      "expiry_date": "2026-06-04"
+    }
+  ],
+  "orders": [
+    {
+      "order_id": "ORD-1001",
+      "customer_id": "CUST-1001",
+      "customer_name": "Sarah Jenkins",
+      "items": [
+        {
+          "product_id": "PROD-101",
+          "name": "Organic Honeycrisp Apples",
+          "price": 4.99,
+          "quantity": 2
+        },
+        {
+          "product_id": "PROD-104",
+          "name": "Grass-Fed Milk 2%",
+          "price": 5.25,
+          "quantity": 1
+        },
+        {
+          "product_id": "PROD-103",
+          "name": "Sourdough Artisan Bread",
+          "price": 3.5,
+          "quantity": 1
+        }
+      ],
+      "total_amount": 18.73,
+      "payment_status": "Paid",
+      "delivery_status": "Delivered",
+      "order_date": "2026-05-20"
+    },
+    {
+      "order_id": "ORD-1002",
+      "customer_id": "CUST-1002",
+      "customer_name": "David Miller",
+      "items": [
+        {
+          "product_id": "PROD-105",
+          "name": "Atlantic Salmon Fillet",
+          "price": 18.99,
+          "quantity": 1
+        },
+        {
+          "product_id": "PROD-106",
+          "name": "Extra Virgin Olive Oil",
+          "price": 12.99,
+          "quantity": 1
+        },
+        {
+          "product_id": "PROD-102",
+          "name": "Fresh Avocado Giant Hass",
+          "price": 1.89,
+          "quantity": 3
+        }
+      ],
+      "total_amount": 37.65,
+      "payment_status": "Paid",
+      "delivery_status": "Shipped",
+      "order_date": "2026-05-21"
+    },
+    {
+      "order_id": "ORD-1003",
+      "customer_id": "CUST-1003",
+      "customer_name": "Emily Rodriguez",
+      "items": [
+        {
+          "product_id": "PROD-107",
+          "name": "Organic Baby Spinach Bunch",
+          "price": 2.99,
+          "quantity": 2
+        },
+        {
+          "product_id": "PROD-108",
+          "name": "Free Range Large Eggs",
+          "price": 4.5,
+          "quantity": 2
+        }
+      ],
+      "total_amount": 14.98,
+      "payment_status": "Pending",
+      "delivery_status": "Pending",
+      "order_date": "2026-05-22"
+    },
+    {
+      "order_id": "ORD-8207",
+      "customer_id": "CUST-2685",
+      "customer_name": "Ruchi Tiwari",
+      "items": [
+        {
+          "product_id": "PROD-595",
+          "name": "muffins",
+          "price": 10,
+          "quantity": 2
+        },
+        {
+          "product_id": "PROD-104",
+          "name": "Grass-Fed Milk 2%",
+          "price": 5.25,
+          "quantity": 1
+        }
+      ],
+      "total_amount": 25.25,
+      "payment_status": "Paid",
+      "delivery_status": "Processing",
+      "order_date": "2026-05-24"
+    }
+  ],
+  "customers": [
+    {
+      "customer_id": "CUST-1001",
+      "name": "Sarah Jenkins",
+      "email": "sarah.j@gmail.com",
+      "phone": "+1 (555) 234-5678",
+      "address": "742 Evergreen Terrace, Springfield",
+      "purchase_count": 14,
+      "total_spent": 312.4
+    },
+    {
+      "customer_id": "CUST-1002",
+      "name": "David Miller",
+      "email": "david.miller@yahoo.com",
+      "phone": "+1 (555) 876-5432",
+      "address": "102 Pine Crest Lane, Riverwood",
+      "purchase_count": 8,
+      "total_spent": 184.2
+    },
+    {
+      "customer_id": "CUST-1003",
+      "name": "Emily Rodriguez",
+      "email": "emily.r99@outlook.com",
+      "phone": "+1 (555) 456-7890",
+      "address": "589 Oakwood Court, Silver Spring",
+      "purchase_count": 3,
+      "total_spent": 45.1
+    },
+    {
+      "customer_id": "CUST-1004",
+      "name": "Marcus Aurelius",
+      "email": "marcus.meditations@philosophy.org",
+      "phone": "+1 (555) 111-2222",
+      "address": "100 Imperial Gardens, Rome",
+      "purchase_count": 12,
+      "total_spent": 289
+    },
+    {
+      "customer_id": "CUST-2685",
+      "name": "Ruchi Tiwari",
+      "email": "ruchitiwari0307@gmail.com",
+      "phone": "0502096551",
+      "address": "Default Address",
+      "purchase_count": 1,
+      "total_spent": 25.25
+    }
+  ],
+  "inventory": [
+    {
+      "inventory_id": "INV-101",
+      "product_id": "PROD-101",
+      "product_name": "Organic Honeycrisp Apples",
+      "stock": 120,
+      "min_threshold": 30,
+      "status": "In Stock"
+    },
+    {
+      "inventory_id": "INV-102",
+      "product_id": "PROD-102",
+      "product_name": "Fresh Avocado Giant Hass",
+      "stock": 15,
+      "min_threshold": 20,
+      "status": "Low Stock"
+    },
+    {
+      "inventory_id": "INV-103",
+      "product_id": "PROD-103",
+      "product_name": "Sourdough Artisan Bread",
+      "stock": 45,
+      "min_threshold": 15,
+      "status": "In Stock"
+    },
+    {
+      "inventory_id": "INV-104",
+      "product_id": "PROD-104",
+      "product_name": "Grass-Fed Milk 2%",
+      "stock": 79,
+      "min_threshold": 20,
+      "status": "In Stock"
+    },
+    {
+      "inventory_id": "INV-105",
+      "product_id": "PROD-105",
+      "product_name": "Atlantic Salmon Fillet",
+      "stock": 25,
+      "min_threshold": 10,
+      "status": "In Stock"
+    },
+    {
+      "inventory_id": "INV-106",
+      "product_id": "PROD-106",
+      "product_name": "Extra Virgin Olive Oil",
+      "stock": 50,
+      "min_threshold": 15,
+      "status": "In Stock"
+    },
+    {
+      "inventory_id": "INV-107",
+      "product_id": "PROD-107",
+      "product_name": "Organic Baby Spinach Bunch",
+      "stock": 8,
+      "min_threshold": 15,
+      "status": "Low Stock"
+    },
+    {
+      "inventory_id": "INV-108",
+      "product_id": "PROD-108",
+      "product_name": "Free Range Large Eggs",
+      "stock": 110,
+      "min_threshold": 25,
+      "status": "In Stock"
+    },
+    {
+      "inventory_id": "INV-721",
+      "product_id": "PROD-595",
+      "product_name": "muffins",
+      "stock": 48,
+      "min_threshold": 10,
+      "status": "In Stock"
+    }
+  ],
+  "activity_logs": [
+    {
+      "id": "LOG-1779650268616",
+      "type": "order",
+      "description": "Placed order ORD-8207 for customer Ruchi Tiwari totaling $25.25",
+      "timestamp": "2026-05-24T19:17:48.616Z"
+    },
+    {
+      "id": "LOG-1779650201358",
+      "type": "inventory",
+      "description": "Manually updated inventory stock for muffins: 50 units",
+      "timestamp": "2026-05-24T19:16:41.358Z"
+    },
+    {
+      "id": "LOG-1779650189166",
+      "type": "inventory",
+      "description": "Manually updated inventory stock for muffins: 8 units",
+      "timestamp": "2026-05-24T19:16:29.166Z"
+    },
+    {
+      "id": "LOG-1779650145230",
+      "type": "product",
+      "description": "Updated product details for muffins (PROD-595)",
+      "timestamp": "2026-05-24T19:15:45.230Z"
+    },
+    {
+      "id": "LOG-1779650117798",
+      "type": "product",
+      "description": "Created product: muffins (PROD-595) with quantity 50",
+      "timestamp": "2026-05-24T19:15:17.799Z"
+    },
+    {
+      "id": "LOG-1779649886218",
+      "type": "customer",
+      "description": "Admin logged in successfully from session",
+      "timestamp": "2026-05-24T19:11:26.218Z"
+    },
+    {
+      "id": "LOG-1",
+      "type": "order",
+      "description": "Order ORD-1003 pending payment initialized for $14.98",
+      "timestamp": "2026-05-22T19:45:00Z"
+    },
+    {
+      "id": "LOG-2",
+      "type": "inventory",
+      "description": "Low stock alert: Organic Baby Spinach Bunch quantity is at 8 Bunch",
+      "timestamp": "2026-05-22T18:15:00Z"
+    },
+    {
+      "id": "LOG-3",
+      "type": "product",
+      "description": "Product Free Range Large Eggs added to catalog with 110 qty",
+      "timestamp": "2026-05-22T14:30:00Z"
+    }
+  ]
+}
